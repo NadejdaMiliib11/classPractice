@@ -1,0 +1,340 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 754134,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Wikipedia title verification using search feature",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-title-verification-using-search-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 172761569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8815488256,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Wikipedia Home Page",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197432714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25899661788,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143685796,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees \"Steve Jobs\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_wiki_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 188386140,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8212145180,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Wikipedia Home Page",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141171123,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40397710416,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130395349,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sees \"Steve Jobs\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_Steve_Jobs_is_in_the_main_header(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58530,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Wikipedia Search Functionality Image Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-image-header-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 99842678,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4037648395,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on Wikipedia Home Page",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177290843,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27813602859,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46195458,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User sees \"Steve Jobs\" is in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_image_header(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia search functionality",
+    "description": "",
+    "id": "wikipedia-search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/wikipedia.feature",
+    "tags": [
+      {
+        "name": "@wiki",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
